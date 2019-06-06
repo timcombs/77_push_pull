@@ -1,7 +1,9 @@
 # 77_plus_plus
 
 - created in React
-- using hooks
+- using Hooks
+- tests
+  - using what libraries?
 - dynamic changes due to fetch calls
 - buttons and labels and clickable objects
 
