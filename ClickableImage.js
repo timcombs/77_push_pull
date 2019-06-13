@@ -14,7 +14,7 @@ export default function ClickableImage(imgPath) {
               target="_blank"
               rel="noopener noreferrer"
             >img</a>
-     </>
+    </>
 
   );
 }
