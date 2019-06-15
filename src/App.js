@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Card from './Card.js';
 
-import './App.css';
+import './styles/App.css';
 
 function App() {
   const [cards, setCards] = useState([
