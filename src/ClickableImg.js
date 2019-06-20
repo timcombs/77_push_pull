@@ -1,18 +1,16 @@
-// going to make this a clickable image using Hooks
-
 import React from 'react';
 
-export default function ClickableImg(imgPath, imgURL, imgDescription) {
+export default function ClickableImg(url, path, alt) {
 
   return (
     <>
-    <img src={imgPath} className="clickable-img" alt={imgDescription} />
-            <a
-              className="click-img-anchor"
-              href={imgURL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >img</a>
+      <a
+        className="click-img-anchor"
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer">
+        <img className="clickable-img" src={path} alt={alt}></img>
+      </a>
     </>
 
   );
